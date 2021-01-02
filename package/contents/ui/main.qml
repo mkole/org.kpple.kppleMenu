@@ -218,6 +218,11 @@ Item {
                 }
             }
             
+            Text {
+                text: "______________________________________"
+                color: "#1E000000"
+            }
+            
             ListDelegate { 
                 id: logOutItem
                 highlight: delegateHighlight
